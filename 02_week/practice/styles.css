@@ -61,3 +61,22 @@ a {
     /* border: inset 10px solid green; */
 
 }
+
+p {
+    color: red;
+}
+
+.block p {
+    color: blue;
+}
+
+.box div p {
+    color: yellow;
+}
+
+/* card */
+/* card--featured */
+/* card__title */
+
+/* card__image */
+/* card__content */
