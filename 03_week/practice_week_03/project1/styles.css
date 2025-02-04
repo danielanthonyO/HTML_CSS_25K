@@ -1,0 +1,52 @@
+/* This is the CSS file for the project_task_2 */
+
+* {
+  box-sizing: border-box;
+}
+
+.header-section {
+  background-color: #d5e5e9;
+  padding: 10px;
+  margin: 20px;
+  border-bottom: 2px solid red;
+}
+.tagline {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.main-section {
+  margin: 20px;
+  padding: 10px;
+  line-height: 1.6;
+  background-color: rgb(233, 233, 221);
+}
+.main-section li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.main-section li:hover {
+  color: #9e0f0f;
+  cursor: pointer;
+}
+
+/* About me section */
+.about-me {
+  margin-top: 20px;
+  padding: 10px;
+}
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Footer section */
+.footer-section {
+  background-color: #d5e5e9;
+  padding: 10px;
+  margin: 20px;
+  border-top: 2px solid red;
+}
