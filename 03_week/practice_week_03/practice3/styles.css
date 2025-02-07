@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+}
+
+/* inline can not have width so inline block */
+label{
+    width: 150px;
+    display: inline-block;
+}
+
+/* input text to be changed, inherit from body */
+input {
+    width: 50%;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 9px 5px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    /* box-shadow: inset 0 0 5px #333; */
+}
+
+div {
+    margin: 15px;;
+}
+
+.container {
+    background-color: rgb(194, 166, 82);
+    padding: 20px;
+    border: 1px solid #eee;
+}
+
+.practice-container {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.practice1 {
+    border: none;
+}
