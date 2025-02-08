@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: darkslategray;
-    color: white;
+    background-color: #fff;
+    color: rgb(9, 9, 9);
 }
 
 h1 {
@@ -32,7 +32,7 @@ a {
     border-top: 12px solid blue;
     border-right: 5px solid green;
     border-left: 10px dotted red;
-    border-bottom: 3px double yellow;
+    border-bottom: 3px double rgb(47, 47, 2);
 
     border: 10px solid pink; /* overiding */
     border-radius: 10px;
@@ -53,7 +53,7 @@ a {
     width: 150px;
     border-radius: 50%;
 
-     /* for special design top right bottom left*/
+    /* for special design top right bottom left*/
     border-radius: 50% 25% 10% 0;
     outline: 10px solid red;
     border: 10px solid green;
@@ -71,7 +71,7 @@ p {
 }
 
 .box div p {
-    color: yellow;
+    color: rgb(236, 9, 210);
 }
 
 /* card */
