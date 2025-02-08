@@ -1,0 +1,26 @@
+body {
+  background-color: #d3d3d3;
+}
+
+header {
+  background-color: #1b5b9b;
+  color: #fff;
+}
+
+h1 {
+    background-color: #d3d3d3;
+    color: #003366;
+}
+
+main {
+  background-color: #ff6f61;
+}
+
+section {
+  background-color: #FFD700;
+}
+
+footer {
+  background-color: #003366;
+  color: #fff;
+}
