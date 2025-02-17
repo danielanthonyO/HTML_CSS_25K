@@ -20,12 +20,13 @@ a:hover {
   color: #070fe9;
 }
 
-header {
-  background-color: #003366;
+header, footer {
+  background-color: #243f5b;
   color: #fff;
   text-align: center;
   line-height: 1.5;
   font-size: 16px;
+  padding: 10px;
 }
 
 div {
@@ -62,16 +63,20 @@ main div {
 section {
   background-color: #ffd700;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px;
 }
 
 h2, h3 {
   padding: 20px;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 footer {
-  background-color: #003366;
-  color: #fff;
   text-align: center;
   padding: 20px;
 }
