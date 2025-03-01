@@ -1,14 +1,27 @@
 /* This is the CSS file for the project_task_2 */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-
-.header-section {
-  background-color: #d5e5e9;
+body {
+  background-color: #f39c12;
+  color: #fff;
+  font-size: 18px;
+  background-color: #F57C00;
+}
+section {
   padding: 10px;
-  margin: 20px;
-  border-bottom: 2px solid red;
+}
+
+/* header section */
+.header {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px 110px;
+  margin-bottom: 10px;
+  border-bottom: 4px solid red;
 }
 .tagline {
   font-size: 1.2em;
@@ -16,20 +29,62 @@
   margin-top: 10px;
 }
 
-.main-section {
-  margin: 20px;
-  padding: 10px;
+/* main section */
+/* intro section */
+.intro {
+  padding: 20px 60px;
+  margin: 35px 50px;
   line-height: 1.6;
-  background-color: rgb(233, 233, 221);
+  color: #000;
+  background-color: #d7e1f0;
 }
-.main-section li {
+.intro h2 {
+  padding: 20px;
+}
+.intro p {
+  padding: 15px 20px;
+}
+
+/* hobby */
+.hobby {
+  background-color: #fff;
+  color: #000;
+  padding-left: 50px;
+  margin: 10px 90px;
+  border-radius: 25px;
+}
+.hobby h3 {
+  color: red;
+}
+.hobby ul li {
   list-style-type: none;
-  margin-bottom: 10px;
+  width: 30px;
 }
-.main-section li:hover {
+.hobby li:hover {
   color: #9e0f0f;
   cursor: pointer;
 }
+
+.skills{
+  padding: 40px;
+  margin: 10px 90px;
+  color: red;
+  background-color: #e5ba8f;
+  border: 2px solid blue;
+  border-radius: 15px;
+}
+.skills ol li{
+  color: #000;
+}
+
+
+.about {
+  background-color: #bed7ee;
+  color: black;
+  padding: 20px 60px;
+  margin: 35px 50px;
+}
+
 
 /* About me section */
 .about-me {
@@ -41,12 +96,22 @@
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
+  padding: 20px;
 }
 
 /* Footer section */
-.footer-section {
-  background-color: #d5e5e9;
-  padding: 10px;
+.footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px 110px;
   margin: 20px;
   border-top: 2px solid red;
+}
+.footer p {
+  padding-bottom: 20px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  
 }
