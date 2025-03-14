@@ -1,0 +1,82 @@
+/* universal selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    color: rgb(9, 9, 9);
+}
+
+h1 {
+    color: white;
+    background-color: red;
+    height: 100px;
+    width: 50%;
+    padding: 20px;
+}
+
+a {
+    color: black;
+    background-color: rgb(167, 273, 167);
+    width: 50%;
+    /* padding: 20px; */
+}
+.box {
+    background-color: burlywood;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-top: 12px solid blue;
+    border-right: 5px solid green;
+    border-left: 10px dotted red;
+    border-bottom: 3px double rgb(47, 47, 2);
+
+    border: 10px solid pink; /* overiding */
+    border-radius: 10px;
+
+    margin: 40px;
+}
+.box2 {
+    background-color: darkorange;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.circle {
+    background-color: darkorange;
+    /* padding: 50px; */
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+    /* for special design top right bottom left*/
+    border-radius: 50% 25% 10% 0;
+    outline: 10px solid red;
+    border: 10px solid green;
+
+    /* border: inset 10px solid green; */
+
+}
+
+p {
+    color: red;
+}
+
+.block p {
+    color: blue;
+}
+
+.box div p {
+    color: rgb(236, 9, 210);
+}
+
+/* card */
+/* card--featured */
+/* card__title */
+
+/* card__image */
+/* card__content */

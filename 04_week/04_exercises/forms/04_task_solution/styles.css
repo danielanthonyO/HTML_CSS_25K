@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Page Background */
+body {
+    background-color: #215E44; /* Greenish Background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Heading */
+.signup-form h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.signup-form p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+.signup-form label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin: 5px 0;
+    color: #444;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Sign Up Button */
+.signup-form button {
+    width: 100%;
+    background-color: #FF7F50; /* Orange Button */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.signup-form button:hover {
+    background-color: #FF5722; /* Darker Orange */
+}
+
+/* Terms & Conditions */
+.terms {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #666;
+}
+
+.terms a {
+    color: #FF7F50;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+/* Login Link */
+.login-link {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.login-link a {
+    color: #E76F51;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
